@@ -8,8 +8,9 @@ Compiler Design Lab
 2.Write program to design of lexical analyzer using LEX
 
 **To Compile**
-* Save file as `lex lexical-lextool.l`.
-* Then a file `lex.yy.c` will be generated
+* Save file as `lexical-lextool.l`.
+* Run `lex lexical-lextool.l`.
+* Then a file `lex.yy.c` will be generated.
 * Compile it using gcc by using `gcc lex.yy.c -lfl`
 
 
