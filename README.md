@@ -15,6 +15,7 @@ Compiler Design Lab
 * Run `lex lexical-lextool.l`.
 * Then a file `lex.yy.c` will be generated.
 * Compile it using gcc by using `gcc lex.yy.c -lfl`
+* Execute the `./a.out` file.
 
 
 i)Write a program to check whether the given string is valid according to the regular definition   `0(10|01)*`.
