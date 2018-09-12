@@ -4,6 +4,9 @@ Compiler Design Lab
 ### Day 1
 1.Design and implement a lexical analyzer for given language using C and the lexical analyzer should ignore redundant spaces, tabs and new lines.
 
+![Lexical Analyser](https://raw.githubusercontent.com/beingfranklin/Compiler-Design-Lab/master/LexicalAnalyser.png)
+
+
 ### Day 2
 2.Write program to design of lexical analyzer using LEX
 
