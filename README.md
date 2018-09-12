@@ -7,7 +7,13 @@ Compiler Design Lab
 ### Day 2
 2.Write program to design of lexical analyzer using LEX
 
-i)Write a program to check whether the given string is valid according to the regular definition   ` 0 (10 | 01)*`.
+**To Compile**
+* Save file as `lex lexical-lextool.l`.
+* Then a file `lex.yy.c` will be generated
+* Compile it using gcc by using `gcc lex.yy.c -lfl`
+
+
+i)Write a program to check whether the given string is valid according to the regular definition   `0(10|01)*`.
 
 ii)Write a program to list the identifiers from a given C program.
 
