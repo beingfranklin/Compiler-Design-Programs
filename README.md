@@ -1,10 +1,12 @@
 # Compiler-Design-Lab
 
-## Day 1
+### Day 1
 1.Design and implement a lexical analyzer for given language using C and the lexical analyzer should ignore redundant spaces, tabs and new lines.
 
+### Day 2
 2.Write program to design of lexical analyzer using LEX
 
+### To Complete
 i)Write a program to check whether the given string is valid according to the regular definition    0 (10 | 01)*.
 
 ii)Write a program to list the identifiers from a given C program.
