@@ -30,7 +30,7 @@ i) Write a program to check the syntax of switch statement in C.
 
 ii) Program to recognize a valid arithmetic expression that uses operator `+, – , * and /`.
 
-iii) Program to recognize a valid variable which starts with a letter followed by any   number of letters or digits.
+~~iii) Program to recognize a valid variable which starts with a letter followed by any   number of letters or digits.~~
 
 iv) Write a program to implement arithmetic calculator.
 
