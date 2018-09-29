@@ -1,15 +1,22 @@
 %{
-#include<stdio.h>
-#include<stdlib.h>
+	#include<stdio.h>
 %}
-%token SWITCH ID CASE BREAK NUM OPENPARANTHESES CLOSEPARANTHESES STMT COLON NEWLINE SEMICOLON OPENBRACE CLOSEBRACE DEFAULT
+
+%token SW OB ID CB NL COB CS NUM Q BR SEM CCB
+
 %%
-		S	:	SWITCH OPENPARANTHESES ID CLOSEPARANTHESES OPENBRACE NEWLINE X //SC NEWLINE CLOSEBRACE ;
-		X	:	CASE NUM COLON NEWLINE STMT SEMICOLON NEWLINE BREAK SEMICOLON NEWLINE
-			|	DEFAULT COLON NEWLINE STMT SEMICOLON
+S:	X NL	{printf("Valid");}
+ ;
+X:	SW OB ID CB NL COB NL CS NUM Q ID NL BR SEM NL CCB NL
+ ;
 %%
-	main()
-	{
-	print(">>> ");
-	yy.parse();
-	}
+
+void main()
+{
+	yyparse();
+}
+
+int yyerror()
+{
+	printf("Invalid\n");
+}

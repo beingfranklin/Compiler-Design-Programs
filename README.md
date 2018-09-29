@@ -14,11 +14,11 @@ i) Write a program to check whether the given string is valid according to the r
 
 ii) Write a program to list the identifiers from a given C program.
 
-**To Compile**
+**Steps To Compile**
 * Save file as `lexical-lextool.l`.
 * Run `lex lexical-lextool.l`.
 * Then a file `lex.yy.c` will be generated.
-* Compile it using gcc by using `gcc lex.yy.c -lfl`
+* Compile it using gcc by typing `gcc lex.yy.c -lfl`
 * Execute the `./a.out` file.
 
 
@@ -33,6 +33,16 @@ ii) Program to recognize a valid arithmetic expression that uses operator `+, â€
 iii) Program to recognize a valid variable which starts with a letter followed by any   number of letters or digits.
 
 iv) Write a program to implement arithmetic calculator.
+
+
+**Steps To Compile**
+
+* Save lex file as `lex.l` and YACC file as `lex.y`.
+* Run `lex pgm.l`.
+* Then a file `lex.yy.c` will be generated. *(Here this command creates a `c` file lex.yy.c)*
+* Compile yacc by using `yacc -d pgm.y` and `y.tab.c` file is generated. *(Here the tokens are generated and stored into y.tab.c )*
+* Now Compile it together using gcc by typing `gcc ytab.c lex.yy.c`
+* Execute the `./a.out` file.
 
 ### To Complete
 
