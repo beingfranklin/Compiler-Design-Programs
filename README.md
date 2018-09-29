@@ -10,6 +10,10 @@ Compiler Design Lab
 ### Day 2
 2. Write program to design of lexical analyzer using LEX
 
+i) Write a program to check whether the given string is valid according to the regular definition   `0(10|01)*`.
+
+ii) Write a program to list the identifiers from a given C program.
+
 **To Compile**
 * Save file as `lexical-lextool.l`.
 * Run `lex lexical-lextool.l`.
@@ -18,11 +22,7 @@ Compiler Design Lab
 * Execute the `./a.out` file.
 
 
-i) Write a program to check whether the given string is valid according to the regular definition   `0(10|01)*`.
-
-ii) Write a program to list the identifiers from a given C program.
-
-### To Complete
+### Day 3
 
 3. Write program to design parser for arithmetic expressions using YACC
 
@@ -33,6 +33,8 @@ ii) Program to recognize a valid arithmetic expression that uses operator `+, â€
 iii) Program to recognize a valid variable which starts with a letter followed by any   number of letters or digits.
 
 iv) Write a program to implement arithmetic calculator.
+
+### To Complete
 
 4. Write program to design recursive descent parser
 
