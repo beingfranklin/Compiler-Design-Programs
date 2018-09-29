@@ -41,7 +41,7 @@ iv) Write a program to implement arithmetic calculator.
 * Run `lex pgm.l`.
 * Then a file `lex.yy.c` will be generated. *(Here this command creates a `c` file lex.yy.c)*
 * Compile yacc by using `yacc -d pgm.y` and `y.tab.c` file is generated. *(Here the tokens are generated and stored into y.tab.c )*
-* Now Compile it together using gcc by typing `gcc ytab.c lex.yy.c`
+* Now Compile it together using gcc by typing `gcc y.tab.c lex.yy.c`
 * Execute the `./a.out` file.
 
 ### To Complete
