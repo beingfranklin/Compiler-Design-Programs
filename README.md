@@ -39,8 +39,8 @@ iv) Write a program to implement arithmetic calculator.
 
 * Save lex file as `lex.l` and YACC file as `lex.y`.
 * Run `lex lex.l`. *(Here this command creates a `c` file `lex.yy.c`)*
-* Compile YACC by using `yacc -d lex.y` and `y.tab.c` file is generated. *(Here the tokens are generated and stored into y.tab.c )*
-* Now Compile it together using gcc by typing `gcc y.tab.c lex.yy.c`
+* Compile YACC by using `yacc -d lex.y` and `y.tab.c` file is generated. *(Here the tokens are generated and stored into `y.tab.c` )*
+* Now Compile it together using gcc by typing `gcc y.tab.c lex.yy.c`.
 * Execute the `./a.out` file.
 
 ### To Complete
