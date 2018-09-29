@@ -17,7 +17,7 @@ if|else|int|float|void|char|include|stdio.h|printf|main
 void main()
 {
 
-yyin=fopen("input2.txt","r");
+yyin=fopen("input.txt","r");
 printf("Identifiers:\n");
 yylex();
 
