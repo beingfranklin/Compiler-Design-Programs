@@ -1,5 +1,6 @@
 %{
 	#include<stdio.h>
+	#include "lex.yy.c"
 %}
 
 %token SW OB ID CB NL COB CS NUM Q BR SEM CCB

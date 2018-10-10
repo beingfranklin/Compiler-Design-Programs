@@ -10,5 +10,5 @@
 
 int yywrap()
 {
-	printf("Lex exception");
+
 }

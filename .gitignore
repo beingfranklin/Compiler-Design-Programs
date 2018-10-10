@@ -52,3 +52,6 @@ Mkfile.old
 dkms.conf
 
 ./a.out
+lex.yy.c
+y.tab.c
+y.tab.h

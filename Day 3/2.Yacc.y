@@ -10,7 +10,8 @@
 %left '(' ')'
 
 %%
-S:	E NL	{printf("Valid\n");}
+S:	E NL	{printf("Valid\n");
+		exit(0);}
 E:	E '+' E	
  |	E '-' E 
  |	E '*' E	
