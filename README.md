@@ -48,7 +48,7 @@ iv) Write a program to implement arithmetic calculator.
 4. Write program to design recursive descent parser
 
 **Steps To Compile**
-* Save file as `pgm_name.c .
+* Save file as `pgm_name.c` .
 * Compile it using gcc by typing `gcc pgm_name.c
 * Execute the `./a.out` file.
 
