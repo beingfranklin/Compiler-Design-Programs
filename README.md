@@ -7,6 +7,11 @@ Compiler Design Lab
 ![Lexical Analyser](https://raw.githubusercontent.com/beingfranklin/Compiler-Design-Lab/master/LexicalAnalyser.png)
 
 
+**Steps To Compile**
+* Save file as `pgm_name.c` .
+* Compile it using gcc by typing `gcc pgm_name.c
+* Execute the `./a.out` file.
+
 ### Day 2
 2. Write program to design of lexical analyzer using LEX
 
@@ -52,9 +57,14 @@ iv) Write a program to implement arithmetic calculator.
 * Compile it using gcc by typing `gcc pgm_name.c
 * Execute the `./a.out` file.
 
-### To Complete
-
 5. Write a program to simulate `FIRST` and `FOLLOW` of any given grammar.
+
+**Steps To Compile**
+* Save file as `pgm_name.c` .
+* Compile it using gcc by typing `gcc pgm_name.c
+* Execute the `./a.out` file.
+
+### To Complete
 
 6. Write program to implement LL (1) parser
 
