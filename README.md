@@ -13,7 +13,7 @@ Compiler Design Lab
 * Execute the `./a.out` file.
 
 ### Day 2
-2. Write program to design of lexical analyzer using LEX
+2. Write a program to design lexical analyzer using LEX
 
 i) Write a program to check whether the given string is valid according to the regular definition   `0(10|01)*`.
 
@@ -29,7 +29,7 @@ ii) Write a program to list the identifiers from a given C program.
 
 ### Day 3
 
-3. Write program to design parser for arithmetic expressions using YACC
+3. Write a program to design a parser for arithmetic expressions using YACC
 
 i) Write a program to check the syntax of switch statement in C.
 
@@ -50,7 +50,7 @@ iv) Write a program to implement arithmetic calculator.
 
 ### Day 4
 
-4. Write program to design recursive descent parser
+4. Write a program to design a recursive descent parser
 
 **Steps To Compile**
 * Save file as `pgm_name.c` .
@@ -66,14 +66,14 @@ iv) Write a program to implement arithmetic calculator.
 
 ### To Complete
 
-6. Write program to implement LL (1) parser
+6. Write a program to implement LL (1) parser
 
-7. Write program to implementation of Operator precedence parsing 
+7. Write a program to implementation of Operator precedence parsing 
 
 8. Write a program to perform constant propagation.
 
-9. Write program to generate Intermediate Code for arithmetic expressions
+9. Write a program to generate Intermediate Code for arithmetic expressions
 
-10. Write program to design a code generator for arithmetic expressions.
+10. Write a program to design a code generator for arithmetic expressions.
 
-11. Write program to find ε – closure of all states of any given NFA with ε transition.
+11. Write a program to find ε – closure of all states of any given NFA with ε transition.
