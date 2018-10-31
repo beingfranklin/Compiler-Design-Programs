@@ -13,14 +13,14 @@ int main() {
   int i, z;
   char c, ch;
   //clrscr();
-  printf("Enter the no of prooductions:\n");
+  printf("Enter the no of productions:\n");
   scanf("%d", & n);
   printf("Enter the productions:\n");
   for (i = 0; i < n; i++)
     scanf("%s%c", a[i], & ch);
   do {
     m = 0;
-    printf("Enter the elemets whose fisrt & follow is to be found:");
+    printf("Enter the elemets whose first & follow is to be found:");
     scanf("%c", & c);
     first(c);
     printf("First(%c)={", c);
@@ -35,7 +35,7 @@ int main() {
     for (i = 0; i < m; i++)
       printf("%c", f[i]);
     printf("}\n");
-    printf("Continue(0/1)?");
+    printf("Do you want to Continue{Yes(1)/No(0)}?");
     scanf("%d%c", & z, & ch);
   } while (z == 1);
   return (0);
