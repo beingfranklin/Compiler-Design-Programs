@@ -50,7 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-
+a.out
 ./a.out
 lex.yy.c
 y.tab.c
