@@ -57,6 +57,8 @@ iv) Write a program to implement arithmetic calculator.
 * Compile it using gcc by typing `gcc pgm_name.c
 * Execute the `./a.out` file.
 
+### Day 5
+
 5. Write a program to simulate `FIRST` and `FOLLOW` of any given grammar.
 
 **Steps To Compile**
