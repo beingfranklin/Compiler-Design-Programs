@@ -9,7 +9,7 @@ Compiler Design Lab
 
 **Steps To Compile**
 * Save file as `pgm_name.c` .
-* Compile it using gcc by typing `gcc pgm_name.c
+* Compile it using gcc by typing `gcc pgm_name.c`.
 * Execute the `./a.out` file.
 
 ### Day 2
@@ -54,7 +54,7 @@ iv) Write a program to implement arithmetic calculator.
 
 **Steps To Compile**
 * Save file as `pgm_name.c` .
-* Compile it using gcc by typing `gcc pgm_name.c
+* Compile it using gcc by typing `gcc pgm_name.c`.
 * Execute the `./a.out` file.
 
 ### Day 5
@@ -63,7 +63,7 @@ iv) Write a program to implement arithmetic calculator.
 
 **Steps To Compile**
 * Save file as `pgm_name.c` .
-* Compile it using gcc by typing `gcc pgm_name.c
+* Compile it using gcc by typing `gcc pgm_name.c`.
 * Execute the `./a.out` file.
 
 ### To Complete
