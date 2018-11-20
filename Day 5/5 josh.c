@@ -6,7 +6,7 @@ int n;
 char production[10][10];
  
 void first(char array[], char ch);
-void follow(char arrray[], char ch);
+void follow(char array[], char ch);
 void append(char array[], char ch);
  
 int main()
