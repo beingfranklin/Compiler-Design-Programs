@@ -50,8 +50,13 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# c files
 a.out
 ./a.out
 lex.yy.c
 y.tab.c
 y.tab.h
+
+#MAC Config
+.DS_Store
