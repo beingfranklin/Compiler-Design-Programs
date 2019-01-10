@@ -1,8 +1,8 @@
 Compiler Design Lab
 ===================
 
-### Day 1
-1. Design and implement a lexical analyzer for given language using C and the lexical analyzer should ignore redundant spaces, tabs and new lines.
+### Program 1
+Design and implement a lexical analyzer for given language using C and the lexical analyzer should ignore redundant spaces, tabs and new lines.
 
 ![Lexical Analyser](https://raw.githubusercontent.com/beingfranklin/Compiler-Design-Lab/master/LexicalAnalyser.png)
 
@@ -12,10 +12,10 @@ Compiler Design Lab
 * Compile it using gcc by typing `gcc pgm_name.c`.
 * Execute the `./a.out` file.
 
-### Day 2
-2. Write a program to design lexical analyzer using LEX
+### Program  2
+Write a program to design lexical analyzer using LEX
 
-i) Write a program to check whether the given string is valid according to the regular definition   `0(10|01)*`.
+i) WrDayite a program to check whether the given string is valid according to the regular definition   `0(10|01)*`.
 
 ii) Write a program to list the identifiers from a given C program.
 
@@ -27,9 +27,9 @@ ii) Write a program to list the identifiers from a given C program.
 * Execute the `./a.out` file.
 
 
-### Day 3
+### Program  3
 
-3. Write a program to design a parser for arithmetic expressions using YACC
+Write a program to design a parser for arithmetic expressions using YACC
 
 i) Write a program to check the syntax of switch statement in C.
 
@@ -48,25 +48,25 @@ iv) Write a program to implement arithmetic calculator.
 * Now Compile it together using gcc by typing `gcc y.tab.c lex.yy.c` or  `gcc y.tab.c -ll -ly`.
 * Execute the `./a.out` file.
 
-### Day 4
+### Program  4
 
-4. Write a program to design a recursive descent parser
-
-**Steps To Compile**
-* Save file as `pgm_name.c` .
-* Compile it using gcc by typing `gcc pgm_name.c`.
-* Execute the `./a.out` file.
-
-### Day 5
-
-5. Write a program to simulate `FIRST` and `FOLLOW` of any given grammar.
+Write a program to design a recursive descent parser
 
 **Steps To Compile**
 * Save file as `pgm_name.c` .
 * Compile it using gcc by typing `gcc pgm_name.c`.
 * Execute the `./a.out` file.
 
-### To Complete
+### Program  5
+
+Write a program to simulate `FIRST` and `FOLLOW` of any given grammar.
+
+**Steps To Compile**
+* Save file as `pgm_name.c` .
+* Compile it using gcc by typing `gcc pgm_name.c`.
+* Execute the `./a.out` file.
+
+### Pending Programs
 
 6. Write a program to implement LL (1) parser
 
