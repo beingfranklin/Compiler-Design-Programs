@@ -17,6 +17,7 @@ Design and implement a lexical analyzer for given language using C and the lexic
 **Write a program to design lexical analyzer using LEX**
 
 i) Write a program to check whether the given string is valid according to the regular definition   `0(10|01)*`.
+
 ii) Write a program to list the identifiers from a given C program.
 
 #### Steps To Compile
@@ -30,9 +31,13 @@ ii) Write a program to list the identifiers from a given C program.
 ### Program 3
 
 **Write a program to design a parser for arithmetic expressions using YACC**
+
 i) Write a program to check the syntax of switch statement in C.
+
 ii) Write a program to recognize a valid arithmetic expression that uses operator `+, – , * and /`.
+
 ~~iii) Program to recognize a valid variable which starts with a letter followed by any   number of letters or digits.~~
+
 iv) Write a program to implement arithmetic calculator.
 
 
@@ -64,8 +69,13 @@ iv) Write a program to implement arithmetic calculator.
 ### [Todo] Pending Programs
 
 6. Write a program to implement LL (1) parser.
+
 7. Write a program to implementation of Operator precedence parsing. 
+
 8. Write a program to perform constant propagation.
+
 9. Write a program to generate Intermediate Code for arithmetic expressions.
+
 10. Write a program to design a code generator for arithmetic expressions.
+
 11. Write a program to find ε – closure of all states of any given NFA with ε transition.
