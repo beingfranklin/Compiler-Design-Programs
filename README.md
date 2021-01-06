@@ -12,6 +12,7 @@ Design and implement a lexical analyzer for given language using C and the lexic
 * Compile it using gcc by typing `gcc pgm_name.c`.
 * Execute the `./a.out` file.
 
+
 ### Program  2
 
 **Write a program to design lexical analyzer using LEX
@@ -28,13 +29,13 @@ ii) Write a program to list the identifiers from a given C program.
 * Execute the `./a.out` file.
 
 
-### Program  3
+### Program 3
 
 **Write a program to design a parser for arithmetic expressions using YACC
 
 i) Write a program to check the syntax of switch statement in C.
 
-ii) Program to recognize a valid arithmetic expression that uses operator `+, – , * and /`.
+ii) Write a program to recognize a valid arithmetic expression that uses operator `+, – , * and /`.
 
 ~~iii) Program to recognize a valid variable which starts with a letter followed by any   number of letters or digits.~~
 
@@ -49,7 +50,7 @@ iv) Write a program to implement arithmetic calculator.
 * Now Compile it together using gcc by typing `gcc y.tab.c lex.yy.c` or  `gcc y.tab.c -ll -ly`.
 * Execute the `./a.out` file.
 
-### Program  4
+### Program 4
 
 **Write a program to design a recursive descent parser
 
@@ -58,7 +59,7 @@ iv) Write a program to implement arithmetic calculator.
 * Compile it using gcc by typing `gcc pgm_name.c`.
 * Execute the `./a.out` file.
 
-### Program  5
+### Program 5
 
 **Write a program to simulate `FIRST` and `FOLLOW` of any given grammar.
 
@@ -69,13 +70,13 @@ iv) Write a program to implement arithmetic calculator.
 
 ### [Todo] Pending Programs
 
-6. Write a program to implement LL (1) parser
+6. Write a program to implement LL (1) parser.
 
-7. Write a program to implementation of Operator precedence parsing 
+7. Write a program to implementation of Operator precedence parsing. 
 
 8. Write a program to perform constant propagation.
 
-9. Write a program to generate Intermediate Code for arithmetic expressions
+9. Write a program to generate Intermediate Code for arithmetic expressions.
 
 10. Write a program to design a code generator for arithmetic expressions.
 
