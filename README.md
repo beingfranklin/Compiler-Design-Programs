@@ -13,13 +13,14 @@ Design and implement a lexical analyzer for given language using C and the lexic
 * Execute the `./a.out` file.
 
 ### Program  2
-Write a program to design lexical analyzer using LEX
 
-i) WrDayite a program to check whether the given string is valid according to the regular definition   `0(10|01)*`.
+**Write a program to design lexical analyzer using LEX
+
+i) Write a program to check whether the given string is valid according to the regular definition   `0(10|01)*`.
 
 ii) Write a program to list the identifiers from a given C program.
 
-**Steps To Compile**
+#### Steps To Compile**
 * Save file as `lexical-lextool.l`.
 * Run `lex lexical-lextool.l`.
 * Then a file `lex.yy.c` will be generated.
@@ -29,7 +30,7 @@ ii) Write a program to list the identifiers from a given C program.
 
 ### Program  3
 
-Write a program to design a parser for arithmetic expressions using YACC
+**Write a program to design a parser for arithmetic expressions using YACC
 
 i) Write a program to check the syntax of switch statement in C.
 
@@ -50,23 +51,23 @@ iv) Write a program to implement arithmetic calculator.
 
 ### Program  4
 
-Write a program to design a recursive descent parser
+**Write a program to design a recursive descent parser
 
-**Steps To Compile**
+#### Steps To Compile**
 * Save file as `pgm_name.c` .
 * Compile it using gcc by typing `gcc pgm_name.c`.
 * Execute the `./a.out` file.
 
 ### Program  5
 
-Write a program to simulate `FIRST` and `FOLLOW` of any given grammar.
+**Write a program to simulate `FIRST` and `FOLLOW` of any given grammar.
 
-**Steps To Compile**
+#### Steps To Compile**
 * Save file as `pgm_name.c` .
 * Compile it using gcc by typing `gcc pgm_name.c`.
 * Execute the `./a.out` file.
 
-### Pending Programs
+### [Todo] Pending Programs
 
 6. Write a program to implement LL (1) parser
 
