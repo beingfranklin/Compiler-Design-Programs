@@ -7,7 +7,7 @@ Design and implement a lexical analyzer for given language using C and the lexic
 ![Lexical Analyser](https://raw.githubusercontent.com/beingfranklin/Compiler-Design-Lab/master/LexicalAnalyser.png)
 
 
-**Steps To Compile**
+#### Steps To Compile
 * Save file as `pgm_name.c` .
 * Compile it using gcc by typing `gcc pgm_name.c`.
 * Execute the `./a.out` file.
@@ -15,7 +15,7 @@ Design and implement a lexical analyzer for given language using C and the lexic
 
 ### Program  2
 
-**Write a program to design lexical analyzer using LEX
+**Write a program to design lexical analyzer using LEX**
 
 i) Write a program to check whether the given string is valid according to the regular definition   `0(10|01)*`.
 
@@ -31,7 +31,7 @@ ii) Write a program to list the identifiers from a given C program.
 
 ### Program 3
 
-**Write a program to design a parser for arithmetic expressions using YACC
+**Write a program to design a parser for arithmetic expressions using YACC**
 
 i) Write a program to check the syntax of switch statement in C.
 
@@ -42,7 +42,7 @@ ii) Write a program to recognize a valid arithmetic expression that uses operato
 iv) Write a program to implement arithmetic calculator.
 
 
-**Steps To Compile**
+#### Steps To Compile
 
 * Save lex file as `YourFileName.l` and YACC file as `YourFileName.y`.
 * Run `lex YourFileName.l`. *(Here this command creates a `c` file `lex.yy.c`)*
@@ -52,7 +52,7 @@ iv) Write a program to implement arithmetic calculator.
 
 ### Program 4
 
-**Write a program to design a recursive descent parser
+**Write a program to design a recursive descent parser**
 
 #### Steps To Compile**
 * Save file as `pgm_name.c` .
@@ -61,9 +61,9 @@ iv) Write a program to implement arithmetic calculator.
 
 ### Program 5
 
-**Write a program to simulate `FIRST` and `FOLLOW` of any given grammar.
+**Write a program to simulate `FIRST` and `FOLLOW` of any given grammar**
 
-#### Steps To Compile**
+#### Steps To Compile
 * Save file as `pgm_name.c` .
 * Compile it using gcc by typing `gcc pgm_name.c`.
 * Execute the `./a.out` file.
